@@ -2,6 +2,7 @@
     "private": true,
     "type": "module",
     "dependencies": {
+        "console-table-printer": "^2.11.1",
         "dotenv": "^16.0.2",
         "lodash.differencewith": "^4.5.0",
         "lodash.isequal": "^4.5.0",

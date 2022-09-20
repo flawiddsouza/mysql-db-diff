@@ -2,6 +2,8 @@ import { Sequelize } from 'sequelize'
 import differenceWith from 'lodash.differencewith'
 import isEqual from 'lodash.isequal'
 import * as dotenv from 'dotenv'
+import { printTable } from 'console-table-printer'
+
 const { parsed: config } = dotenv.config()
 
 const dbNames = [
@@ -50,9 +52,24 @@ for(const table of tables) {
     const differences = differenceWith(dbData[0][table], dbData[1][table], isEqual)
     if(differences.length > 0) {
         tableDiff[table] = differences
+        differences.forEach(difference => {
+            const id = config.TABLE_ID ? eval('`' + config.TABLE_ID + '`') : 'id'
+            const diffRecord = dbData[1][table].find(row => row[id] === difference[id])
+            Object.keys(difference).forEach(property => {
+                if(!isEqual(difference[property], diffRecord[property])) {
+                    difference[property] = difference[property] + ' -> ' + diffRecord[property]
+                } else {
+                    if(property !== id) {
+                        delete difference[property]
+                    }
+                }
+            })
+        })
     }
 }
 
 for(const table of Object.keys(tableDiff)) {
-    console.table(tableDiff[table])
+    console.log(`${table} (${dbNames[0]} -> ${dbNames[1]})`)
+    printTable(tableDiff[table])
+    console.log()
 }
