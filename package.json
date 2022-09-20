@@ -2,6 +2,7 @@
     "private": true,
     "type": "module",
     "dependencies": {
+        "chalk": "^5.0.1",
         "console-table-printer": "^2.11.1",
         "dotenv": "^16.0.2",
         "lodash.differencewith": "^4.5.0",
@@ -10,6 +11,7 @@
         "sequelize": "^6.23.0"
     },
     "scripts": {
-        "compare": "node app.js"
+        "compare": "node app.js",
+        "test": "node test.js"
     }
 }

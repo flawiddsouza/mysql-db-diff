@@ -1,0 +1,5008 @@
+{
+    "tables": [
+        "master_achievement",
+        "master_config",
+        "master_country",
+        "master_daily_reward",
+        "master_iap",
+        "master_iap_bundle",
+        "master_iap_bundle_items",
+        "master_level_reward",
+        "master_powerup",
+        "master_surprise_reward"
+    ],
+    "dbData": [
+        {
+            "master_achievement": [
+                {
+                    "master_achievement_id": 1,
+                    "achievement_name": "Victory!",
+                    "pre_earned_description": "Collect 3 Stars",
+                    "earned_description": "Collected 3 stars",
+                    "achievement_count_required": 3,
+                    "achievement_point_reward": 5,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 2,
+                    "achievement_name": "Starman",
+                    "pre_earned_description": "Collect 100 stars",
+                    "earned_description": "Collected 100 stars",
+                    "achievement_count_required": 100,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 3,
+                    "achievement_name": "Fly me to the Moon",
+                    "pre_earned_description": "Collect 500 Stars",
+                    "earned_description": "Collected 500 stars",
+                    "achievement_count_required": 500,
+                    "achievement_point_reward": 30,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 4,
+                    "achievement_name": "Across The Universe",
+                    "pre_earned_description": "Collect 900 Stars",
+                    "earned_description": "Collected 900 stars",
+                    "achievement_count_required": 900,
+                    "achievement_point_reward": 50,
+                    "achievement_difficulty": 3,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 5,
+                    "achievement_name": "Surprises",
+                    "pre_earned_description": "Earn 5 surprise rewards",
+                    "earned_description": "Earned 5 surprise rewards",
+                    "achievement_count_required": 5,
+                    "achievement_point_reward": 10,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 2,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 6,
+                    "achievement_name": "We are the Champions",
+                    "pre_earned_description": "Earn 3 stars for 10 levels in a row",
+                    "earned_description": "Earned 3 stars for 10 levels in a row",
+                    "achievement_count_required": 10,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 3,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 7,
+                    "achievement_name": "Lucky",
+                    "pre_earned_description": "Collect the Daily Reward consecutively 7 times",
+                    "earned_description": "Collected the Daily Reward consecutively 7 times",
+                    "achievement_count_required": 7,
+                    "achievement_point_reward": 10,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 4,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 8,
+                    "achievement_name": "100!",
+                    "pre_earned_description": "Complete 100 Levels",
+                    "earned_description": "Completed 100 levels",
+                    "achievement_count_required": 100,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 9,
+                    "achievement_name": "200!",
+                    "pre_earned_description": "Complete 200 Levels",
+                    "earned_description": "Completed 200 levels",
+                    "achievement_count_required": 200,
+                    "achievement_point_reward": 30,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 10,
+                    "achievement_name": "300!",
+                    "pre_earned_description": "Complete 300 Levels",
+                    "earned_description": "Completed 300 levels",
+                    "achievement_count_required": 300,
+                    "achievement_point_reward": 50,
+                    "achievement_difficulty": 3,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                }
+            ],
+            "master_config": [
+                {
+                    "master_config_id": 1,
+                    "config_value_ANDROID": "00.00.01",
+                    "config_value_IOS": "00.00.01",
+                    "play_store_link": "",
+                    "ios_store_link": "",
+                    "terms_and_condition_en": "",
+                    "gamerules_en": "",
+                    "privacy_policy_en": "",
+                    "cookie_en": "",
+                    "youtube_link": "",
+                    "firebase_link_param": "",
+                    "created_at": "2021-05-10T00:00:00.000Z",
+                    "status": 1
+                }
+            ],
+            "master_country": [
+                {
+                    "master_country_id": 1,
+                    "country_name": "Afghanistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-08T12:47:31.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 2,
+                    "country_name": "Albania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-08T12:48:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 3,
+                    "country_name": "Algeria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:00.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 4,
+                    "country_name": "Andorra",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:00.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 5,
+                    "country_name": "Angola",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 6,
+                    "country_name": "Antigua & Barbuda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 7,
+                    "country_name": "Argentina",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 8,
+                    "country_name": "Armenia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 9,
+                    "country_name": "Australia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 10,
+                    "country_name": "Austria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 11,
+                    "country_name": "Azerbaijan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 12,
+                    "country_name": "Bahamas",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 13,
+                    "country_name": "Bahrain",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 14,
+                    "country_name": "Bangladesh",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 15,
+                    "country_name": "Barabados",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 16,
+                    "country_name": "Belarus",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 17,
+                    "country_name": "Belgium",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 18,
+                    "country_name": "Belize",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 19,
+                    "country_name": "Benin",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 20,
+                    "country_name": "Bhutan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 21,
+                    "country_name": "Bolivia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 22,
+                    "country_name": "Bosnia and Herzegovina",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 23,
+                    "country_name": "Botswana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 24,
+                    "country_name": "Brazil",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 25,
+                    "country_name": "Brunei",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 26,
+                    "country_name": "Bulgaria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 27,
+                    "country_name": "Burkina Faso",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 28,
+                    "country_name": "Burundi",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 29,
+                    "country_name": "Cabo Verde",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 30,
+                    "country_name": "Cambodia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 31,
+                    "country_name": "Cameroon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 32,
+                    "country_name": "Canada",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 33,
+                    "country_name": "Central African Rep.",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 34,
+                    "country_name": "Chad",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 35,
+                    "country_name": "Chile",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 36,
+                    "country_name": "China",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 37,
+                    "country_name": "Colombia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 38,
+                    "country_name": "Comoros",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 39,
+                    "country_name": "Costa Rica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 40,
+                    "country_name": "Croatia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 41,
+                    "country_name": "Cuba",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 42,
+                    "country_name": "Cyprus",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 43,
+                    "country_name": "Czech Republic",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 44,
+                    "country_name": "Democratic Republic of the Congo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 45,
+                    "country_name": "Denmark",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 46,
+                    "country_name": "Djibouti",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 47,
+                    "country_name": "Dominica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 48,
+                    "country_name": "Dominican Republic",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 49,
+                    "country_name": "Ecuador",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 50,
+                    "country_name": "Egypt",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 51,
+                    "country_name": "El Salvador",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 52,
+                    "country_name": "England",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 53,
+                    "country_name": "Equatorial Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 54,
+                    "country_name": "Eritrea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 55,
+                    "country_name": "Estonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 56,
+                    "country_name": "Eswatini",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 57,
+                    "country_name": "Ethiopia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 58,
+                    "country_name": "Fiji",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 59,
+                    "country_name": "Fed. States of Micronesia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 60,
+                    "country_name": "Finland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 61,
+                    "country_name": "France",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 62,
+                    "country_name": "Gabon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 63,
+                    "country_name": "Gambia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 64,
+                    "country_name": "Georgia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 65,
+                    "country_name": "Germany",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 66,
+                    "country_name": "Ghana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 67,
+                    "country_name": "Greece",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 68,
+                    "country_name": "Grenada",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 69,
+                    "country_name": "Guatemala",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 70,
+                    "country_name": "Guinea Bissau",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 71,
+                    "country_name": "Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 72,
+                    "country_name": "Guyana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 73,
+                    "country_name": "Haiti",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 74,
+                    "country_name": "Honduras",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 75,
+                    "country_name": "Hong Kong",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 76,
+                    "country_name": "Hungary",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 77,
+                    "country_name": "Iceland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 78,
+                    "country_name": "India",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 79,
+                    "country_name": "Indonesia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 80,
+                    "country_name": "Iran",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 81,
+                    "country_name": "Iraq",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 82,
+                    "country_name": "Ireland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 83,
+                    "country_name": "Israel",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 84,
+                    "country_name": "Italy",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 85,
+                    "country_name": "Ivory Coast",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 86,
+                    "country_name": "Jamaica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 87,
+                    "country_name": "Japan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 88,
+                    "country_name": "Jordan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 89,
+                    "country_name": "Kazakhstan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 90,
+                    "country_name": "Kenya",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 91,
+                    "country_name": "Kiribati",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 92,
+                    "country_name": "Kosovo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 93,
+                    "country_name": "Kuwait",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 94,
+                    "country_name": "Kyrgyzstan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 95,
+                    "country_name": "Laos",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 96,
+                    "country_name": "Latvia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 97,
+                    "country_name": "Lebanon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 98,
+                    "country_name": "Lesotho",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 99,
+                    "country_name": "Liberia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 100,
+                    "country_name": "Libya",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 101,
+                    "country_name": "Liechtenstein",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 102,
+                    "country_name": "Lithuania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 103,
+                    "country_name": "Luxembourg",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 104,
+                    "country_name": "Macedonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 105,
+                    "country_name": "Madagascar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 106,
+                    "country_name": "Malawi",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 107,
+                    "country_name": "Malaysia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 108,
+                    "country_name": "Maldives",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 109,
+                    "country_name": "Mali",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 110,
+                    "country_name": "Malta",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 111,
+                    "country_name": "Marshall Islands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 112,
+                    "country_name": "Mauritania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 113,
+                    "country_name": "Mauritius",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 114,
+                    "country_name": "Mexico",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 115,
+                    "country_name": "Micronesia, Federated States of",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 116,
+                    "country_name": "Moldova",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 117,
+                    "country_name": "Monaco",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 118,
+                    "country_name": "Mongolia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 119,
+                    "country_name": "Montenegro",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 120,
+                    "country_name": "Morocco",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 121,
+                    "country_name": "Mozambique",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 122,
+                    "country_name": "Myanmar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 123,
+                    "country_name": "Namibia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 124,
+                    "country_name": "Nauru",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 125,
+                    "country_name": "Nepal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 126,
+                    "country_name": "Netherlands Antilles",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 127,
+                    "country_name": "Netherlands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 128,
+                    "country_name": "New Zealand",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 129,
+                    "country_name": "Nicaragua",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 130,
+                    "country_name": "Nigeria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 131,
+                    "country_name": "Niger",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 132,
+                    "country_name": "North Korea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 133,
+                    "country_name": "North Macedonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 134,
+                    "country_name": "Northern Ireland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 135,
+                    "country_name": "Norway",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 136,
+                    "country_name": "Oman",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 137,
+                    "country_name": "Pakistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 138,
+                    "country_name": "Palau",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 139,
+                    "country_name": "Panama",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 140,
+                    "country_name": "Papua New Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 141,
+                    "country_name": "Paraguay",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 142,
+                    "country_name": "Peru",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 143,
+                    "country_name": "Philippines",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 144,
+                    "country_name": "Poland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 145,
+                    "country_name": "Portugal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 146,
+                    "country_name": "Puerto Rico",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 147,
+                    "country_name": "Qatar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 148,
+                    "country_name": "Rwanda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 149,
+                    "country_name": "Republic of the Congo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 150,
+                    "country_name": "Romania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 151,
+                    "country_name": "Russia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 152,
+                    "country_name": "Saint Kitts & Nevis",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 153,
+                    "country_name": "Saint Lucia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 154,
+                    "country_name": "Saint Vincents & The Grenadines",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 155,
+                    "country_name": "San Marino",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 156,
+                    "country_name": "Sao Tome and Principe",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 157,
+                    "country_name": "Saudi Arabia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 158,
+                    "country_name": "Scotland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 159,
+                    "country_name": "Senegal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 160,
+                    "country_name": "Serbia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 161,
+                    "country_name": "Seychelles",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 162,
+                    "country_name": "Sierra Leone",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 163,
+                    "country_name": "Singapore",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 164,
+                    "country_name": "Slovakia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 165,
+                    "country_name": "Slovenia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 166,
+                    "country_name": "Solomon Islands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 167,
+                    "country_name": "Somalia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 168,
+                    "country_name": "South Africa",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 169,
+                    "country_name": "South Korea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 170,
+                    "country_name": "South Sudan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 171,
+                    "country_name": "Spain",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 172,
+                    "country_name": "Sri Lanka",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 173,
+                    "country_name": "Sudan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 174,
+                    "country_name": "Suriname",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 175,
+                    "country_name": "Sweden",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 176,
+                    "country_name": "Switzerland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 177,
+                    "country_name": "Syria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 178,
+                    "country_name": "Taiwan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 179,
+                    "country_name": "Tajikistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 180,
+                    "country_name": "Tanzania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 181,
+                    "country_name": "Thailand",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 182,
+                    "country_name": "Timor-Leste",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 183,
+                    "country_name": "Togo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 184,
+                    "country_name": "Tonga",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 185,
+                    "country_name": "Trinidad & Tobago",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 186,
+                    "country_name": "Tunisia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 187,
+                    "country_name": "Turkey",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 188,
+                    "country_name": "Tuvalu",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 189,
+                    "country_name": "Turkmenistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 190,
+                    "country_name": "UAE",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 191,
+                    "country_name": "Uganda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 192,
+                    "country_name": "Ukraine",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 193,
+                    "country_name": "Uruguay",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 194,
+                    "country_name": "USA",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 195,
+                    "country_name": "Uzbekistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 196,
+                    "country_name": "Vanuatu",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 197,
+                    "country_name": "Vatican City",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 198,
+                    "country_name": "Vietnam",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 199,
+                    "country_name": "Venezuela",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 200,
+                    "country_name": "Wales",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 201,
+                    "country_name": "Western Samoa",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 202,
+                    "country_name": "Yemen",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 203,
+                    "country_name": "Zambia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 204,
+                    "country_name": "Zimbabwe",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                }
+            ],
+            "master_daily_reward": [
+                {
+                    "master_daily_reward_id": 1,
+                    "reward_name": "Disco Ball",
+                    "reward_type": 3,
+                    "master_powerup_id": 3,
+                    "reward_count": 1,
+                    "probability": 8,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 2,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 5,
+                    "probability": 50,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 3,
+                    "reward_name": "Dynamite",
+                    "reward_type": 3,
+                    "master_powerup_id": 2,
+                    "reward_count": 1,
+                    "probability": 3,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 4,
+                    "reward_name": "Rocket",
+                    "reward_type": 3,
+                    "master_powerup_id": 1,
+                    "reward_count": 1,
+                    "probability": 3,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 5,
+                    "reward_name": "Musical Arrow",
+                    "reward_type": 3,
+                    "master_powerup_id": 4,
+                    "reward_count": 1,
+                    "probability": 3,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 6,
+                    "reward_name": "Sound Wave",
+                    "reward_type": 3,
+                    "master_powerup_id": 5,
+                    "reward_count": 1,
+                    "probability": 3,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 7,
+                    "reward_name": "No Reward",
+                    "reward_type": 4,
+                    "master_powerup_id": 0,
+                    "reward_count": 0,
+                    "probability": 25,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 8,
+                    "reward_name": "Extra Spin",
+                    "reward_type": 5,
+                    "master_powerup_id": 0,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_iap": [
+                {
+                    "master_iap_id": 1,
+                    "iap_type": 1,
+                    "iap_name": "Pianissimissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.tinycoinpack",
+                    "quantity": 350,
+                    "price": 1.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 2,
+                    "iap_type": 1,
+                    "iap_name": "Pianissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.smallcoinpack",
+                    "quantity": 1400,
+                    "price": 6.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 3,
+                    "iap_type": 1,
+                    "iap_name": "Mezzo Piano Pack",
+                    "product_id": "com.simplegames.recordbreaker.mediumcoinpack",
+                    "quantity": 2250,
+                    "price": 9.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 4,
+                    "iap_type": 1,
+                    "iap_name": "Mezzo Forte Pack",
+                    "product_id": "com.simplegames.recordbreaker.largecoinpack",
+                    "quantity": 5700,
+                    "price": 20.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 5,
+                    "iap_type": 1,
+                    "iap_name": "Fortissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.xlcoinpack",
+                    "quantity": 12000,
+                    "price": 42.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 6,
+                    "iap_type": 1,
+                    "iap_name": "Fortissimissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.titancoinpack",
+                    "quantity": 26000,
+                    "price": 84.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 7,
+                    "iap_type": 1,
+                    "iap_name": "Tiny Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.tinylivespack",
+                    "quantity": 1,
+                    "price": 0.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 10,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 8,
+                    "iap_type": 1,
+                    "iap_name": "Value Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.valuelivespack",
+                    "quantity": 5,
+                    "price": 2.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 45,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 9,
+                    "iap_type": 1,
+                    "iap_name": "Large Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.largelivespack",
+                    "quantity": 5,
+                    "price": 7.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 60,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_iap_bundle": [
+                {
+                    "master_iap_bundle_id": 1,
+                    "iap_type": 1,
+                    "iap_name": "Busker's Bundle",
+                    "product_id": "com.simplegames.recordbreaker.startersbundle",
+                    "price": 1.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 2,
+                    "iap_type": 1,
+                    "iap_name": "Influencer’s bundle",
+                    "product_id": "com.simplegames.recordbreaker.indiebundle",
+                    "price": 5.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 3,
+                    "iap_type": 1,
+                    "iap_name": "Indie Label Bundle ",
+                    "product_id": "com.simplegames.recordbreaker.musiciansbundle",
+                    "price": 6.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 4,
+                    "iap_type": 1,
+                    "iap_name": "Gold Record Bundle ",
+                    "product_id": "com.simplegames.recordbreaker.recordbundle",
+                    "price": 19.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 5,
+                    "iap_type": 1,
+                    "iap_name": "Platinum Record Bundle ",
+                    "product_id": "com.simplegames.recordbreaker.titanbundle",
+                    "price": 30.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 6,
+                    "iap_type": 1,
+                    "iap_name": "Rockstar bundle",
+                    "product_id": "com.simplegames.recordbreaker.rockstarbundle",
+                    "price": 74.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                }
+            ],
+            "master_iap_bundle_items": [
+                {
+                    "master_iap_bundle_item_id": 1,
+                    "master_iap_bundle_id": 1,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 350,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 2,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 3,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 4,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 5,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 6,
+                    "master_iap_bundle_id": 2,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 1100,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 7,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 8,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 9,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 10,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 11,
+                    "master_iap_bundle_id": 3,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 1400,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 12,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 13,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 14,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 15,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 16,
+                    "master_iap_bundle_id": 3,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 15,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 17,
+                    "master_iap_bundle_id": 4,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 4500,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 18,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 19,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 20,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 21,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 22,
+                    "master_iap_bundle_id": 4,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 30,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 23,
+                    "master_iap_bundle_id": 5,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 7200,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 24,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 25,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 26,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 27,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 28,
+                    "master_iap_bundle_id": 5,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 45,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 29,
+                    "master_iap_bundle_id": 6,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 13000,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 30,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 31,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 32,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 33,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 34,
+                    "master_iap_bundle_id": 6,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 90,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_level_reward": [
+                {
+                    "master_level_reward_id": 1,
+                    "reward_name": "Coins",
+                    "reward_count": 100,
+                    "reward_type": 1,
+                    "created_at": "2021-03-02T20:12:15.000Z",
+                    "status": 1
+                },
+                {
+                    "master_level_reward_id": 2,
+                    "reward_name": "Life",
+                    "reward_count": 1,
+                    "reward_type": 2,
+                    "created_at": "2021-03-02T20:12:15.000Z",
+                    "status": 1
+                }
+            ],
+            "master_powerup": [
+                {
+                    "master_powerup_id": 1,
+                    "powerup_name": "Rocket",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 2,
+                    "powerup_name": "Dynamite",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 3,
+                    "powerup_name": "Disco Ball",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 4,
+                    "powerup_name": "Musical arrow",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 5,
+                    "powerup_name": "Sound Wave",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 6,
+                    "powerup_name": "Music Hammer",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 7,
+                    "powerup_name": "Music Bucket",
+                    "initial_count": 3,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                }
+            ],
+            "master_surprise_reward": [
+                {
+                    "master_surprise_reward_id": 1,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 5,
+                    "probability": 35,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 2,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 25,
+                    "probability": 4,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 3,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 50,
+                    "probability": 1,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 4,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 1,
+                    "probability": 30,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 15,
+                    "life_reward_type": 1
+                },
+                {
+                    "master_surprise_reward_id": 5,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 5,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 30,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 6,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 5,
+                    "probability": 1,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 60,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 7,
+                    "reward_name": "Music Hammer",
+                    "reward_type": 3,
+                    "master_powerup_id": 6,
+                    "reward_count": 1,
+                    "probability": 8,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 8,
+                    "reward_name": "Music Bucket",
+                    "reward_type": 3,
+                    "master_powerup_id": 7,
+                    "reward_count": 1,
+                    "probability": 8,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 9,
+                    "reward_name": "Sound waves",
+                    "reward_type": 3,
+                    "master_powerup_id": 5,
+                    "reward_count": 1,
+                    "probability": 8,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                }
+            ]
+        },
+        {
+            "master_achievement": [
+                {
+                    "master_achievement_id": 1,
+                    "achievement_name": "Victory!",
+                    "pre_earned_description": "Collect 3 Stars",
+                    "earned_description": "Collected 3 stars",
+                    "achievement_count_required": 3,
+                    "achievement_point_reward": 5,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 2,
+                    "achievement_name": "Starman",
+                    "pre_earned_description": "Collect 100 stars",
+                    "earned_description": "Collected 100 stars",
+                    "achievement_count_required": 100,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 3,
+                    "achievement_name": "Fly me to the Moon",
+                    "pre_earned_description": "Collect 500 Stars",
+                    "earned_description": "Collected 500 stars",
+                    "achievement_count_required": 500,
+                    "achievement_point_reward": 30,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 4,
+                    "achievement_name": "Across The Universe",
+                    "pre_earned_description": "Collect 900 Stars",
+                    "earned_description": "Collected 900 stars",
+                    "achievement_count_required": 900,
+                    "achievement_point_reward": 50,
+                    "achievement_difficulty": 3,
+                    "achievement_type": 1,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 5,
+                    "achievement_name": "Surprises",
+                    "pre_earned_description": "Earn 5 surprise rewards",
+                    "earned_description": "Earned 5 surprise rewards",
+                    "achievement_count_required": 5,
+                    "achievement_point_reward": 10,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 2,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 6,
+                    "achievement_name": "We are the Champions",
+                    "pre_earned_description": "Earn 3 stars for 10 levels in a row",
+                    "earned_description": "Earned 3 stars for 10 levels in a row",
+                    "achievement_count_required": 10,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 3,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 7,
+                    "achievement_name": "Lucky",
+                    "pre_earned_description": "Collect the Daily Reward consecutively 7 times",
+                    "earned_description": "Collected the Daily Reward consecutively 7 times",
+                    "achievement_count_required": 7,
+                    "achievement_point_reward": 10,
+                    "achievement_difficulty": 1,
+                    "achievement_type": 4,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 8,
+                    "achievement_name": "100!",
+                    "pre_earned_description": "Complete 100 Levels",
+                    "earned_description": "Completed 100 levels",
+                    "achievement_count_required": 100,
+                    "achievement_point_reward": 20,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 9,
+                    "achievement_name": "200!",
+                    "pre_earned_description": "Complete 200 Levels",
+                    "earned_description": "Completed 200 levels",
+                    "achievement_count_required": 200,
+                    "achievement_point_reward": 30,
+                    "achievement_difficulty": 2,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                },
+                {
+                    "master_achievement_id": 10,
+                    "achievement_name": "300!",
+                    "pre_earned_description": "Complete 300 Levels",
+                    "earned_description": "Completed 300 levels",
+                    "achievement_count_required": 300,
+                    "achievement_point_reward": 50,
+                    "achievement_difficulty": 3,
+                    "achievement_type": 5,
+                    "google_achievement_id": "",
+                    "ios_achievement_id": "",
+                    "created_at": "2021-03-29T14:06:27.000Z",
+                    "status": 1
+                }
+            ],
+            "master_config": [
+                {
+                    "master_config_id": 1,
+                    "config_value_ANDROID": "00.00.01",
+                    "config_value_IOS": "00.00.01",
+                    "play_store_link": "",
+                    "ios_store_link": "",
+                    "terms_and_condition_en": "",
+                    "gamerules_en": "",
+                    "privacy_policy_en": "",
+                    "cookie_en": "",
+                    "youtube_link": "",
+                    "firebase_link_param": "",
+                    "created_at": "2021-05-10T00:00:00.000Z",
+                    "status": 1
+                }
+            ],
+            "master_country": [
+                {
+                    "master_country_id": 1,
+                    "country_name": "Afghanistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-08T12:47:31.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 2,
+                    "country_name": "Albania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-08T12:48:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 3,
+                    "country_name": "Algeria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:00.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 4,
+                    "country_name": "Andorra",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:00.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 5,
+                    "country_name": "Angola",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 6,
+                    "country_name": "Antigua & Barbuda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 7,
+                    "country_name": "Argentina",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 8,
+                    "country_name": "Armenia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 9,
+                    "country_name": "Australia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 10,
+                    "country_name": "Austria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 11,
+                    "country_name": "Azerbaijan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 12,
+                    "country_name": "Bahamas",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 13,
+                    "country_name": "Bahrain",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 14,
+                    "country_name": "Bangladesh",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 15,
+                    "country_name": "Barabados",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 16,
+                    "country_name": "Belarus",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 17,
+                    "country_name": "Belgium",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 18,
+                    "country_name": "Belize",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 19,
+                    "country_name": "Benin",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 20,
+                    "country_name": "Bhutan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 21,
+                    "country_name": "Bolivia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 22,
+                    "country_name": "Bosnia and Herzegovina",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 23,
+                    "country_name": "Botswana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 24,
+                    "country_name": "Brazil",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 25,
+                    "country_name": "Brunei",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 26,
+                    "country_name": "Bulgaria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 27,
+                    "country_name": "Burkina Faso",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 28,
+                    "country_name": "Burundi",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:01.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 29,
+                    "country_name": "Cabo Verde",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 30,
+                    "country_name": "Cambodia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 31,
+                    "country_name": "Cameroon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 32,
+                    "country_name": "Canada",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 33,
+                    "country_name": "Central African Rep.",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 34,
+                    "country_name": "Chad",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 35,
+                    "country_name": "Chile",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 36,
+                    "country_name": "China",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 37,
+                    "country_name": "Colombia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 38,
+                    "country_name": "Comoros",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 39,
+                    "country_name": "Costa Rica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 40,
+                    "country_name": "Croatia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 41,
+                    "country_name": "Cuba",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 42,
+                    "country_name": "Cyprus",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 43,
+                    "country_name": "Czech Republic",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 44,
+                    "country_name": "Democratic Republic of the Congo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 45,
+                    "country_name": "Denmark",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 46,
+                    "country_name": "Djibouti",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 47,
+                    "country_name": "Dominica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 48,
+                    "country_name": "Dominican Republic",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:02.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 49,
+                    "country_name": "Ecuador",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 50,
+                    "country_name": "Egypt",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 51,
+                    "country_name": "El Salvador",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 52,
+                    "country_name": "England",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 53,
+                    "country_name": "Equatorial Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 54,
+                    "country_name": "Eritrea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 55,
+                    "country_name": "Estonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 56,
+                    "country_name": "Eswatini",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 57,
+                    "country_name": "Ethiopia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 58,
+                    "country_name": "Fiji",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 59,
+                    "country_name": "Fed. States of Micronesia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 60,
+                    "country_name": "Finland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 61,
+                    "country_name": "France",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 62,
+                    "country_name": "Gabon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 63,
+                    "country_name": "Gambia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 64,
+                    "country_name": "Georgia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 65,
+                    "country_name": "Germany",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 66,
+                    "country_name": "Ghana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 67,
+                    "country_name": "Greece",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 68,
+                    "country_name": "Grenada",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 69,
+                    "country_name": "Guatemala",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 70,
+                    "country_name": "Guinea Bissau",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 71,
+                    "country_name": "Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 72,
+                    "country_name": "Guyana",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 73,
+                    "country_name": "Haiti",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 74,
+                    "country_name": "Honduras",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 75,
+                    "country_name": "Hong Kong",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 76,
+                    "country_name": "Hungary",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 77,
+                    "country_name": "Iceland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 78,
+                    "country_name": "India",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 79,
+                    "country_name": "Indonesia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 80,
+                    "country_name": "Iran",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 81,
+                    "country_name": "Iraq",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 82,
+                    "country_name": "Ireland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:03.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 83,
+                    "country_name": "Israel",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 84,
+                    "country_name": "Italy",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 85,
+                    "country_name": "Ivory Coast",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 86,
+                    "country_name": "Jamaica",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 87,
+                    "country_name": "Japan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 88,
+                    "country_name": "Jordan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 89,
+                    "country_name": "Kazakhstan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 90,
+                    "country_name": "Kenya",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 91,
+                    "country_name": "Kiribati",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 92,
+                    "country_name": "Kosovo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 93,
+                    "country_name": "Kuwait",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 94,
+                    "country_name": "Kyrgyzstan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 95,
+                    "country_name": "Laos",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 96,
+                    "country_name": "Latvia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 97,
+                    "country_name": "Lebanon",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 98,
+                    "country_name": "Lesotho",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 99,
+                    "country_name": "Liberia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 100,
+                    "country_name": "Libya",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 101,
+                    "country_name": "Liechtenstein",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 102,
+                    "country_name": "Lithuania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 103,
+                    "country_name": "Luxembourg",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 104,
+                    "country_name": "Macedonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 105,
+                    "country_name": "Madagascar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 106,
+                    "country_name": "Malawi",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 107,
+                    "country_name": "Malaysia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 108,
+                    "country_name": "Maldives",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 109,
+                    "country_name": "Mali",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:04.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 110,
+                    "country_name": "Malta",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 111,
+                    "country_name": "Marshall Islands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 112,
+                    "country_name": "Mauritania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 113,
+                    "country_name": "Mauritius",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 114,
+                    "country_name": "Mexico",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 115,
+                    "country_name": "Micronesia, Federated States of",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 116,
+                    "country_name": "Moldova",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 117,
+                    "country_name": "Monaco",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 118,
+                    "country_name": "Mongolia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 119,
+                    "country_name": "Montenegro",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 120,
+                    "country_name": "Morocco",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 121,
+                    "country_name": "Mozambique",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 122,
+                    "country_name": "Myanmar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 123,
+                    "country_name": "Namibia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 124,
+                    "country_name": "Nauru",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 125,
+                    "country_name": "Nepal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 126,
+                    "country_name": "Netherlands Antilles",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 127,
+                    "country_name": "Netherlands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 128,
+                    "country_name": "New Zealand",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 129,
+                    "country_name": "Nicaragua",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 130,
+                    "country_name": "Nigeria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 131,
+                    "country_name": "Niger",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 132,
+                    "country_name": "North Korea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 133,
+                    "country_name": "North Macedonia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 134,
+                    "country_name": "Northern Ireland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 135,
+                    "country_name": "Norway",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 136,
+                    "country_name": "Oman",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:05.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 137,
+                    "country_name": "Pakistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 138,
+                    "country_name": "Palau",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 139,
+                    "country_name": "Panama",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 140,
+                    "country_name": "Papua New Guinea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 141,
+                    "country_name": "Paraguay",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 142,
+                    "country_name": "Peru",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 143,
+                    "country_name": "Philippines",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 144,
+                    "country_name": "Poland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 145,
+                    "country_name": "Portugal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 146,
+                    "country_name": "Puerto Rico",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 147,
+                    "country_name": "Qatar",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 148,
+                    "country_name": "Rwanda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:06.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 149,
+                    "country_name": "Republic of the Congo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 150,
+                    "country_name": "Romania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 151,
+                    "country_name": "Russia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 152,
+                    "country_name": "Saint Kitts & Nevis",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 153,
+                    "country_name": "Saint Lucia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 154,
+                    "country_name": "Saint Vincents & The Grenadines",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 155,
+                    "country_name": "San Marino",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 156,
+                    "country_name": "Sao Tome and Principe",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 157,
+                    "country_name": "Saudi Arabia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 158,
+                    "country_name": "Scotland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 159,
+                    "country_name": "Senegal",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 160,
+                    "country_name": "Serbia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 161,
+                    "country_name": "Seychelles",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 162,
+                    "country_name": "Sierra Leone",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 163,
+                    "country_name": "Singapore",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 164,
+                    "country_name": "Slovakia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 165,
+                    "country_name": "Slovenia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 166,
+                    "country_name": "Solomon Islands",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 167,
+                    "country_name": "Somalia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 168,
+                    "country_name": "South Africa",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 169,
+                    "country_name": "South Korea",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 170,
+                    "country_name": "South Sudan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 171,
+                    "country_name": "Spain",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 172,
+                    "country_name": "Sri Lanka",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 173,
+                    "country_name": "Sudan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 174,
+                    "country_name": "Suriname",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 175,
+                    "country_name": "Sweden",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 176,
+                    "country_name": "Switzerland",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 177,
+                    "country_name": "Syria",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 178,
+                    "country_name": "Taiwan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 179,
+                    "country_name": "Tajikistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:07.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 180,
+                    "country_name": "Tanzania",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 181,
+                    "country_name": "Thailand",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 182,
+                    "country_name": "Timor-Leste",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 183,
+                    "country_name": "Togo",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 184,
+                    "country_name": "Tonga",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 185,
+                    "country_name": "Trinidad & Tobago",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 186,
+                    "country_name": "Tunisia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 187,
+                    "country_name": "Turkey",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 188,
+                    "country_name": "Tuvalu",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 189,
+                    "country_name": "Turkmenistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 190,
+                    "country_name": "UAE",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 191,
+                    "country_name": "Uganda",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 192,
+                    "country_name": "Ukraine",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 193,
+                    "country_name": "Uruguay",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 194,
+                    "country_name": "USA",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 195,
+                    "country_name": "Uzbekistan",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 196,
+                    "country_name": "Vanuatu",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 197,
+                    "country_name": "Vatican City",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 198,
+                    "country_name": "Vietnam",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 199,
+                    "country_name": "Venezuela",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 200,
+                    "country_name": "Wales",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:08.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 201,
+                    "country_name": "Western Samoa",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 202,
+                    "country_name": "Yemen",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 203,
+                    "country_name": "Zambia",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                },
+                {
+                    "master_country_id": 204,
+                    "country_name": "Zimbabwe",
+                    "is_banned": 0,
+                    "created_at": "2020-05-20T22:37:09.000Z",
+                    "status": 1
+                }
+            ],
+            "master_daily_reward": [
+                {
+                    "master_daily_reward_id": 1,
+                    "reward_name": "Disco Ball",
+                    "reward_type": 3,
+                    "master_powerup_id": 3,
+                    "reward_count": 1,
+                    "probability": 10,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 2,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 75,
+                    "probability": 50,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 3,
+                    "reward_name": "Dynamite",
+                    "reward_type": 3,
+                    "master_powerup_id": 2,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 4,
+                    "reward_name": "Rocket",
+                    "reward_type": 3,
+                    "master_powerup_id": 1,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 5,
+                    "reward_name": "Musical Arrow",
+                    "reward_type": 3,
+                    "master_powerup_id": 4,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 6,
+                    "reward_name": "Sound Wave",
+                    "reward_type": 3,
+                    "master_powerup_id": 5,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 7,
+                    "reward_name": "No Reward",
+                    "reward_type": 4,
+                    "master_powerup_id": 0,
+                    "reward_count": 0,
+                    "probability": 10,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_daily_reward_id": 8,
+                    "reward_name": "Extra Spin",
+                    "reward_type": 5,
+                    "master_powerup_id": 0,
+                    "reward_count": 1,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_iap": [
+                {
+                    "master_iap_id": 1,
+                    "iap_type": 1,
+                    "iap_name": "Pianissimissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.tinycoinpack",
+                    "quantity": 350,
+                    "price": 1.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 2,
+                    "iap_type": 1,
+                    "iap_name": "Pianissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.smallcoinpack",
+                    "quantity": 1400,
+                    "price": 6.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 3,
+                    "iap_type": 1,
+                    "iap_name": "Mezzo Piano Pack",
+                    "product_id": "com.simplegames.recordbreaker.mediumcoinpack",
+                    "quantity": 2250,
+                    "price": 9.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 4,
+                    "iap_type": 1,
+                    "iap_name": "Mezzo Forte Pack",
+                    "product_id": "com.simplegames.recordbreaker.largecoinpack",
+                    "quantity": 5700,
+                    "price": 20.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 5,
+                    "iap_type": 1,
+                    "iap_name": "Fortissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.xlcoinpack",
+                    "quantity": 12000,
+                    "price": 42.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 6,
+                    "iap_type": 1,
+                    "iap_name": "Fortissimissimo Pack",
+                    "product_id": "com.simplegames.recordbreaker.titancoinpack",
+                    "quantity": 26000,
+                    "price": 84.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 7,
+                    "iap_type": 1,
+                    "iap_name": "Tiny Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.tinylivespack",
+                    "quantity": 3,
+                    "price": 0.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 10,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 8,
+                    "iap_type": 1,
+                    "iap_name": "Value Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.valuelivespack",
+                    "quantity": 10,
+                    "price": 2.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 45,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_id": 9,
+                    "iap_type": 1,
+                    "iap_name": "Large Lives Pack",
+                    "product_id": "com.simplegames.recordbreaker.largelivespack",
+                    "quantity": 20,
+                    "price": 7.99,
+                    "created_at": "2021-01-26T22:54:08.000Z",
+                    "status": 1,
+                    "product_type": 2,
+                    "unlimited_life_duration": 60,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_iap_bundle": [
+                {
+                    "master_iap_bundle_id": 1,
+                    "iap_type": 1,
+                    "iap_name": "Street Artist's Bundle",
+                    "product_id": "com.simplegames.recordbreaker.startersbundle",
+                    "price": 1.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 2,
+                    "iap_type": 1,
+                    "iap_name": "Indie Label Bundle",
+                    "product_id": "com.simplegames.recordbreaker.indiebundle",
+                    "price": 5.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 3,
+                    "iap_type": 1,
+                    "iap_name": "Platinum Bundle",
+                    "product_id": "com.simplegames.recordbreaker.musiciansbundle",
+                    "price": 6.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 4,
+                    "iap_type": 1,
+                    "iap_name": "Gold Record Bundle ",
+                    "product_id": "com.simplegames.recordbreaker.recordbundle",
+                    "price": 19.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 5,
+                    "iap_type": 1,
+                    "iap_name": "Platinum Record Bundle ",
+                    "product_id": "com.simplegames.recordbreaker.titanbundle",
+                    "price": 30.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                },
+                {
+                    "master_iap_bundle_id": 6,
+                    "iap_type": 1,
+                    "iap_name": "Certified Rockstar bundle",
+                    "product_id": "com.simplegames.recordbreaker.rockstarbundle",
+                    "price": 50.99,
+                    "created_at": "2021-03-05T14:43:46.000Z",
+                    "status": 1
+                }
+            ],
+            "master_iap_bundle_items": [
+                {
+                    "master_iap_bundle_item_id": 1,
+                    "master_iap_bundle_id": 1,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 350,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 2,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 3,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 4,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 5,
+                    "master_iap_bundle_id": 1,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 1,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 6,
+                    "master_iap_bundle_id": 2,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 1100,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 7,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 8,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 9,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 10,
+                    "master_iap_bundle_id": 2,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 4,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 11,
+                    "master_iap_bundle_id": 3,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 1400,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 12,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 13,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 14,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 15,
+                    "master_iap_bundle_id": 3,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 16,
+                    "master_iap_bundle_id": 3,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 10,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 17,
+                    "master_iap_bundle_id": 4,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 4500,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 18,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 19,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 20,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 21,
+                    "master_iap_bundle_id": 4,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 20,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 22,
+                    "master_iap_bundle_id": 4,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 30,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 23,
+                    "master_iap_bundle_id": 5,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 7200,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 24,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 25,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 26,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 27,
+                    "master_iap_bundle_id": 5,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 35,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 28,
+                    "master_iap_bundle_id": 5,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 45,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 29,
+                    "master_iap_bundle_id": 6,
+                    "type": 1,
+                    "master_powerup_id": 0,
+                    "quantity": 13000,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 30,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 4,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 31,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 6,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 32,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 5,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 33,
+                    "master_iap_bundle_id": 6,
+                    "type": 3,
+                    "master_powerup_id": 7,
+                    "quantity": 70,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_iap_bundle_item_id": 34,
+                    "master_iap_bundle_id": 6,
+                    "type": 2,
+                    "master_powerup_id": 0,
+                    "quantity": 0,
+                    "created_at": "2021-12-24T00:00:00.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 90,
+                    "life_reward_type": 0
+                }
+            ],
+            "master_level_reward": [
+                {
+                    "master_level_reward_id": 1,
+                    "reward_name": "Coins",
+                    "reward_count": 100,
+                    "reward_type": 1,
+                    "created_at": "2021-03-02T20:12:15.000Z",
+                    "status": 1
+                },
+                {
+                    "master_level_reward_id": 2,
+                    "reward_name": "Life",
+                    "reward_count": 1,
+                    "reward_type": 2,
+                    "created_at": "2021-03-02T20:12:15.000Z",
+                    "status": 1
+                }
+            ],
+            "master_powerup": [
+                {
+                    "master_powerup_id": 1,
+                    "powerup_name": "Rocket",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 2,
+                    "powerup_name": "Dynamite",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 3,
+                    "powerup_name": "Disco Ball",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 4,
+                    "powerup_name": "Musical arrow",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 5,
+                    "powerup_name": "Sound Wave",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 6,
+                    "powerup_name": "Music Hammer",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                },
+                {
+                    "master_powerup_id": 7,
+                    "powerup_name": "Music Bucket",
+                    "initial_count": 0,
+                    "created_at": "2021-03-03T16:16:20.000Z",
+                    "status": 1
+                }
+            ],
+            "master_surprise_reward": [
+                {
+                    "master_surprise_reward_id": 1,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 50,
+                    "probability": 30,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 2,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 100,
+                    "probability": 20,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 3,
+                    "reward_name": "Coins",
+                    "reward_type": 1,
+                    "master_powerup_id": 0,
+                    "reward_count": 200,
+                    "probability": 15,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 4,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 2,
+                    "probability": 7,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 5,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 5,
+                    "probability": 7,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 6,
+                    "reward_name": "Lives",
+                    "reward_type": 2,
+                    "master_powerup_id": 0,
+                    "reward_count": 10,
+                    "probability": 6,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 7,
+                    "reward_name": "Music Hammer",
+                    "reward_type": 3,
+                    "master_powerup_id": 6,
+                    "reward_count": 2,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 8,
+                    "reward_name": "Music Bucket",
+                    "reward_type": 3,
+                    "master_powerup_id": 7,
+                    "reward_count": 2,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                },
+                {
+                    "master_surprise_reward_id": 9,
+                    "reward_name": "Sound waves",
+                    "reward_type": 3,
+                    "master_powerup_id": 5,
+                    "reward_count": 2,
+                    "probability": 5,
+                    "created_at": "2021-03-03T15:42:49.000Z",
+                    "status": 1,
+                    "unlimited_life_duration": 0,
+                    "life_reward_type": 0
+                }
+            ]
+        }
+    ],
+    "tableDiff": {
+        "master_daily_reward": [
+            {
+                "master_daily_reward_id": 1,
+                "probability": "8 -> 10"
+            },
+            {
+                "master_daily_reward_id": 2,
+                "reward_count": "5 -> 75"
+            },
+            {
+                "master_daily_reward_id": 3,
+                "probability": "3 -> 5"
+            },
+            {
+                "master_daily_reward_id": 4,
+                "probability": "3 -> 5"
+            },
+            {
+                "master_daily_reward_id": 5,
+                "probability": "3 -> 5"
+            },
+            {
+                "master_daily_reward_id": 6,
+                "probability": "3 -> 5"
+            },
+            {
+                "master_daily_reward_id": 7,
+                "probability": "25 -> 10"
+            }
+        ],
+        "master_iap": [
+            {
+                "master_iap_id": 7,
+                "quantity": "1 -> 3"
+            },
+            {
+                "master_iap_id": 8,
+                "quantity": "5 -> 10"
+            },
+            {
+                "master_iap_id": 9,
+                "quantity": "5 -> 20"
+            }
+        ],
+        "master_iap_bundle": [
+            {
+                "master_iap_bundle_id": 1,
+                "iap_name": "Busker's Bundle -> Street Artist's Bundle"
+            },
+            {
+                "master_iap_bundle_id": 2,
+                "iap_name": "Influencer’s bundle -> Indie Label Bundle"
+            },
+            {
+                "master_iap_bundle_id": 3,
+                "iap_name": "Indie Label Bundle  -> Platinum Bundle"
+            },
+            {
+                "master_iap_bundle_id": 6,
+                "iap_name": "Rockstar bundle -> Certified Rockstar bundle",
+                "price": "74.99 -> 50.99"
+            }
+        ],
+        "master_iap_bundle_items": [
+            {
+                "master_iap_bundle_item_id": "16 -> 1",
+                "master_iap_bundle_id": "3 -> 1",
+                "type": "2 -> 1",
+                "quantity": "0 -> 350",
+                "unlimited_life_duration": "15 -> 0"
+            }
+        ],
+        "master_powerup": [
+            {
+                "master_powerup_id": 1,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 2,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 3,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 4,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 5,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 6,
+                "initial_count": "3 -> 0"
+            },
+            {
+                "master_powerup_id": 7,
+                "initial_count": "3 -> 0"
+            }
+        ],
+        "master_surprise_reward": [
+            {
+                "master_surprise_reward_id": 1,
+                "reward_count": "5 -> 50",
+                "probability": "35 -> 30"
+            },
+            {
+                "master_surprise_reward_id": 2,
+                "reward_count": "25 -> 100",
+                "probability": "4 -> 20"
+            },
+            {
+                "master_surprise_reward_id": 3,
+                "reward_count": "50 -> 200",
+                "probability": "1 -> 15"
+            },
+            {
+                "master_surprise_reward_id": 4,
+                "reward_count": "1 -> 2",
+                "probability": "30 -> 7",
+                "unlimited_life_duration": "15 -> 0",
+                "life_reward_type": "1 -> 0"
+            },
+            {
+                "master_surprise_reward_id": 5,
+                "probability": "5 -> 7",
+                "unlimited_life_duration": "30 -> 0"
+            },
+            {
+                "master_surprise_reward_id": 6,
+                "reward_count": "5 -> 10",
+                "probability": "1 -> 6",
+                "unlimited_life_duration": "60 -> 0"
+            },
+            {
+                "master_surprise_reward_id": 7,
+                "reward_count": "1 -> 2",
+                "probability": "8 -> 5"
+            },
+            {
+                "master_surprise_reward_id": 8,
+                "reward_count": "1 -> 2",
+                "probability": "8 -> 5"
+            },
+            {
+                "master_surprise_reward_id": 9,
+                "reward_count": "1 -> 2",
+                "probability": "8 -> 5"
+            }
+        ]
+    }
+}
