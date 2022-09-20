@@ -1,6 +1,7 @@
 import { Sequelize } from 'sequelize'
 import differenceWith from 'lodash.differencewith'
 import isEqual from 'lodash.isequal'
+import { printTable } from 'console-table-printer'
 
 export async function getDbData(config) {
     const dbNames = [
@@ -70,4 +71,12 @@ export function getTableDiff(tableId, tables, dbData) {
     }
 
     return tableDiff
+}
+
+export function displayTableDiffInConsole(tableDiff, oldDb, newDb) {
+    for(const table of Object.keys(tableDiff)) {
+        console.log(`${table} (${oldDb} -> ${newDb})`)
+        printTable(tableDiff[table])
+        console.log()
+    }
 }
